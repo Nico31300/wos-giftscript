@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+  table
+    tr#desc
+        td(colspan=2) Player
+        td Level
+        td Id 
+        td State
+    each player in players
+        tr
+            td
+                img(src=player.avatar_image)
+            td=player.nickname
+            td
+                img(src=player.stove_lv_content)
+            td=player.fid
+            td=player.fid
+            

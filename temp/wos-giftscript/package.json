@@ -1,0 +1,18 @@
+{
+  "name": "wos-giftscript",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www -e js,mjs,cjs,json,pug"
+  },
+  "dependencies": {
+    "cookie-parser": "latest",
+    "debug": "latest",
+    "express": "latest",
+    "http-errors": "latest",
+    "morgan": "latest",
+    "path": "^0.12.7",
+    "pug": "latest",
+    "reload": "^3.2.1"
+  }
+}

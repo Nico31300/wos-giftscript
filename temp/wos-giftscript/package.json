@@ -12,7 +12,6 @@
     "http-errors": "latest",
     "morgan": "latest",
     "path": "^0.12.7",
-    "pug": "latest",
-    "reload": "^3.2.1"
+    "pug": "latest"
   }
 }
